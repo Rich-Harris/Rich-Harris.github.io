@@ -22,11 +22,17 @@ body {
 	position: relative;
 	text-align: left;
 	font-family: 'Baskerville';
-	font-size: 18px;
+	font-size: 16px;
 	min-width: 320px;
 	line-height: 1.2em;
 	overflow: hidden;
 	height: 100%;
+}
+
+@media screen and (min-width: 24em) {
+	body {
+		font-size: 18px;
+	}
 }
 
 h1, h2 {
